@@ -26,7 +26,11 @@ public abstract class Trabajador {
         this.montofijo = 2000;
     }
 
-    public abstract Integer calcularSueldo();
+    public Integer calcularSueldo(){
+        return this.getMontofijo() + this.restoDelCalculo();
+    }
+
+    public abstract Integer restoDelCalculo();
 
 
 }

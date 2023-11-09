@@ -10,8 +10,8 @@ public class Mecanico extends Trabajador{
     }
 
     @Override
-    public Integer calcularSueldo() {
-        return this.getMontofijo() + 500 * this.getVehiculosReparados();
+    public Integer restoDelCalculo() {
+        return 500 * this.getVehiculosReparados();
     }
 
     public Integer getVehiculosReparados() {

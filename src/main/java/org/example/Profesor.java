@@ -18,8 +18,8 @@ public class Profesor extends Trabajador{
     }
 
     @Override
-    public Integer calcularSueldo() {
-        return this.getMontofijo() + 100 * this.getHorasTrabajadas();
+    public Integer restoDelCalculo() {
+        return 100 * this.getHorasTrabajadas();
     }
 
 
